@@ -1,0 +1,24 @@
+.designClass {
+	color:black;
+	//border: 5px solid black;
+}
+
+#header {
+	height:80px;
+}
+
+#content {
+	width:80%;
+}
+
+#topContent {
+	width:80%;
+}
+
+#bottomContent {
+	width:80%;
+}
+
+#menuAction {
+	border-top:none;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SimpleJspServletDB</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ImageController</display-name>
+    <servlet-name>ImageController</servlet-name>
+    <servlet-class>com.image.controller.ImageController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageController</servlet-name>
+    <url-pattern>/ImageController</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description></description>
+    <display-name>ImageViewController</display-name>
+    <servlet-name>ImageViewController</servlet-name>
+    <servlet-class>com.image.controller.ImageViewController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageViewController</servlet-name>
+    <url-pattern>/ImageViewController</url-pattern>
+  </servlet-mapping>
+</web-app>
